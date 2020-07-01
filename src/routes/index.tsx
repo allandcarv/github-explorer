@@ -9,6 +9,6 @@ const Routes: React.FC = () => (
     <Route path="/" component={Dashboard} exact />
     <Route path="/repository" component={Repository} />
   </Switch>
-)
+);
 
 export default Routes;
